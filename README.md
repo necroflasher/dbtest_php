@@ -7,15 +7,11 @@ php sqlite in year 2023 anno domini
 
 ## screenshots
 
-(had to refresh so many times to get a front page without porn)
+click to enlarge! (had to refresh so many times to get a front page without porn)
 
-![1front.png](.github/1front.png)
+<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/1front.png"><IMG src=".github/1front.png" width="300"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/2md5info.png"><IMG src=".github/2md5info.png" width="300"></A>
 
-![2md5info.png](.github/2md5info.png)
-
-![3nameinfo.png](.github/3nameinfo.png)
-
-![4analyze.png](.github/4analyze.png)
+<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/3nameinfo.png"><IMG src=".github/3nameinfo.png" width="300"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/4analyze.png"><IMG src=".github/4analyze.png" width="300"></A>
 
 ## how to run
 
