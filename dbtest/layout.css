@@ -1,0 +1,124 @@
+
+/*** general ***/
+
+BODY {
+	font: 13px sans-serif;
+	overflow-wrap: anywhere; /* wrap long text with no spaces. why isn't this the default? */
+}
+TABLE#dbstats {
+	margin-bottom: 4px;
+}
+:target {
+	outline: 2px solid currentcolor;
+}
+FIELDSET {
+	width: fit-content;
+}
+A#headerlink {
+	font-weight: bold;
+	font-style: oblique;
+}
+P {
+	margin: 13px 0;
+}
+P.half {
+	margin-top: 13px;
+	margin-bottom: 5px;
+}
+P.half + P.half {
+	margin-top: 5px;
+	margin-bottom: 13px;
+}
+
+IMG {
+	max-width: 250px;
+	height: auto,
+}
+
+/*** front page ***/
+
+.highlight-link {
+	outline: medium solid currentcolor;
+}
+INPUT.dragging {
+	outline: 2px solid currentcolor;
+}
+
+/*** ThreadRenderer ***/
+
+.comment-container {
+	white-space: nowrap; /* keep side arrows and body together */
+	display: flex; /* (only value that wraps/scales/etc right) */
+}
+.comment-container[style="display: none;"]:target { /* url fragment overrides collapsing */
+	display: flex!important;
+}
+.comment-sidearrows {
+	float: left;
+	display: inline-block;
+	margin-top: 3px; /* position matches info line */
+	font-family: monospace;
+	margin-right: 2px;
+}
+.comment-body {
+	white-space: normal; /* unset value from container */
+	display: inline-block;
+	margin: 2px 0px;
+	border: thin solid currentcolor;
+	padding: 1px 2px;
+	font-family: serif;
+	margin-right: 4px;
+}
+.info-line {
+	display: inline-block;
+	border-bottom: thin dotted currentcolor;
+	margin-bottom: 1px;
+}
+
+.comment-body .quotelink {
+	text-decoration: underline;
+}
+.comment-body .quotelink.crossthread {
+	text-decoration: underline;
+}
+
+.comment-body DIV {
+	margin: 2px 0;
+}
+.comment-body DIV.blankline { /* line with 1 empty line above it */
+	margin-top: 6px;
+}
+.comment-body DIV.twoblanklines { /* line with 2 empty lines above it */
+	margin-top: 14px;
+}
+.comment-body DIV.lastline { /* last line in the post box */
+	margin-bottom: 1px; /* decrease from 2px */
+}
+
+/*** md5info ***/
+
+.thread-listing-line {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.seen-names tr > td:first-child {
+	text-align: right;
+	white-space: nowrap; /* prevent long names from breaking layout */
+}
+
+/*** firstsights ***/
+
+IMG.sidepic {
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+.thread {
+	border: 1px solid currentcolor;
+	margin-bottom: 1em;
+	padding: 2px;
+	overflow-y: auto; /* let the floated sidepics expand the height */
+}
+.thread-info-text {
+	margin-bottom: 2px;
+}

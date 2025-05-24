@@ -1,0 +1,72 @@
+
+/*** general ***/
+
+HTML {
+	color-scheme: dark;
+}
+BODY {
+	color:      hsl(235 35% 75% / 1);
+	background: hsl(240 60% 10% / 1);
+}
+:target {
+	outline-color: green;
+}
+A {
+	color: hsl(225 100% 75% / 1);
+}
+A:visited {
+	color: hsl(325 90% 75% / 1);
+}
+HR {
+	border-color: hsl(225 100% 75% / 1);
+}
+TABLE, THEAD, TBODY, TFOOT, TR, TH, TD, FIELDSET {
+	border-color: hsl(240 30% 40% / 1);
+}
+A#headerlink {
+	color: currentcolor;
+}
+
+/*** front page ***/
+
+.highlight-link {
+	outline-color: currentcolor!important;
+}
+INPUT.dragging {
+	outline-color: green;
+}
+
+/*** ThreadRenderer ***/
+
+b.subject {
+	color: hsl(125, 40%, 50%);
+}
+.comment-body {
+	color:        hsl(235 75% 82% / 1);
+	background:   hsl(240 40% 19% / 1);
+	border-color: hsl(235 40% 35% / 1);
+}
+.comment-sidearrows, .info-line, .no-comment-placeholder {
+	color: hsl(240 30% 55% / 1);
+	border-color: currentcolor;
+}
+
+.quotelink {
+	color: hsl(0 90% 68% / 1);
+}
+.quotelink.crossthread {
+	color: hsl(0 100% 68% / 1);
+}
+.info-line a {
+	color: hsl(220 35% 65% / 1);
+}
+
+.comment-body div.greentext {
+	color: hsl(120 50% 60% / 1);
+}
+
+/*** firstsights ***/
+
+.thread {
+	border-color: hsl(240 40% 25% / 1);
+}
