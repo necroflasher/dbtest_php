@@ -9,9 +9,9 @@ php sqlite in year 2023 anno domini
 
 click to enlarge! (had to refresh so many times to get a front page without porn)
 
-<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/1front.png"><IMG src=".github/1front.png" width="300"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/2md5info.png"><IMG src=".github/2md5info.png" width="300"></A>
+<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/1front.png"><IMG src=".github/1front.png" width="250"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/2md5info.png"><IMG src=".github/2md5info.png" width="250"></A>
 
-<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/3nameinfo.png"><IMG src=".github/3nameinfo.png" width="300"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/4analyze.png"><IMG src=".github/4analyze.png" width="300"></A>
+<A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/3nameinfo.png"><IMG src=".github/3nameinfo.png" width="250"></A> <A href="//raw.githubusercontent.com/necroflasher/dbtest_php/refs/heads/master/.github/4analyze.png"><IMG src=".github/4analyze.png" width="250"></A>
 
 ## how to run
 
